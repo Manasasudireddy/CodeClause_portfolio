@@ -1,0 +1,94 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a maximum width for the page */
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Style the header and navigation */
+  header {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Style the main content */
+  .main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main h1 {
+    font-size: 24px;
+  }
+  
+  .main h3 {
+    font-size: 18px;
+  }
+  
+  /* Style the additional content */
+  .dis {
+    padding: 20px;
+  }
+  
+  .dis p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 600px) {
+    /* Adjust header and navigation for small screens */
+    header {
+      padding: 5px;
+    }
+  
+    nav ul li {
+      margin-right: 5px;
+    }
+  
+    /* Adjust main content for small screens */
+    .main {
+      padding: 10px;
+    }
+  
+    .main h1 {
+      font-size: 18px;
+    }
+  
+    .main h3 {
+      font-size: 14px;
+    }
+  
+    /* Adjust additional content for small screens */
+    .dis {
+      padding: 10px;
+    }
+  
+    .dis p {
+      font-size: 12px;
+    }
+  }
+  
